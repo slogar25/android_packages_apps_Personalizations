@@ -1,4 +1,4 @@
-package org.derpfest.customizations.fragment;
+package com.custom.settings.fragments;
 
 import android.content.Context;
 import android.os.Bundle;
