@@ -58,4 +58,11 @@
 		android:title="@string/notifications_title"
 		android:fragment="com.custom.settings.fragments.Notifications" />
 
+	<Preference
+		android:key="statusbar"
+		android:icon="@drawable/ic_settings_statusbar"
+		android:summary="@string/sb_settings_summary"
+		android:title="@string/statusbar_title"
+		android:fragment="com.custom.settings.fragments.StatusBar" />
+		
 </PreferenceScreen>
