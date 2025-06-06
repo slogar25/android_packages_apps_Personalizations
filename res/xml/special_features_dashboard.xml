@@ -50,6 +50,12 @@
         android:summary="@string/system_settings_summary"
         android:title="@string/header_category_system"
         android:fragment="com.custom.settings.fragments.System" />
+		
+	<Preference
+		android:key="notification"
+		android:icon="@drawable/ic_custom_notifications"
+		android:summary="@string/notif_settings_summary"
+		android:title="@string/notifications_title"
+		android:fragment="com.custom.settings.fragments.Notifications" />
 
-
-</PreferenceScreen> 
+</PreferenceScreen>

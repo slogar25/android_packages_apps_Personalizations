@@ -24,7 +24,7 @@
         android:key="notification_illustration"
         lineage:lottie_rawRes="@raw/notification_illustration" />
 		
-    <PreferenceAdd
+    <Preference
         android:key="ongoing_progress_settings"
         android:title="@string/ongoing_progress_settings_title"
         android:summary="@string/ongoing_progress_settings_summary"
